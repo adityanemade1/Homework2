@@ -10,24 +10,6 @@
     android:paddingTop="16dp"
     tools:context="com.example.rkjc.news_app_2.MainActivity">
 
-    <!--<FrameLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent">-->
-
-        <!--<ScrollView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginTop="16dp">-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/newsapi_search_results_json"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="18sp" />-->
-        <!--</ScrollView>-->
-
-    <!--</FrameLayout>-->
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/news_recyclerview"
         android:scrollbars="vertical"
